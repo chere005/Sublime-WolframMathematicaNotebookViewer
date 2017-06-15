@@ -1,0 +1,6 @@
+[
+  {
+    "caption": "View Notebook Plaintext",
+    "command": "notebookview"
+  }
+]
