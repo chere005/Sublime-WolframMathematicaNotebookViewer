@@ -12,3 +12,4 @@ Default OSX:
 Append the following to ~/.bash_profile:
 export PATH="$PATH:/Applications/Mathematica.app/Contents/MacOS/"
 Modify the above directory if your installation is located somewhere else.
+
