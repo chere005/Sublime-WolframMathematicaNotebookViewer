@@ -9,8 +9,9 @@ class NotebookviewCommand(sublime_plugin.TextCommand):
 			sublime.error_message("File Not Saved")
 			return
 
-		settings = sublime.load_settings('WolframMathematicaPlaintextNotebookViewer.sublime-settings')
+		settings = sublime.load_settings('WolframMathematicaNotebookViewer.sublime-settings')
 		wscriptpath = settings.get('wscriptpath')
+
 		cmd = [wscriptpath, '-code', 'Quiet@Import[\"' + path + '\", {\"NB\", \"Plaintext\"}]']
 		
 		p = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE) 

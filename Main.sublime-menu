@@ -1,0 +1,29 @@
+[
+	{
+		"id": "preferences",
+		"children":
+		[
+			{
+				"caption": "Package Settings",
+				"id": "package-settings",
+				"children":
+				[
+					{
+						"caption": "Wolfram Mathematica Notebook Viewer",
+						"children":
+						[
+							{
+								"caption": "Settings",
+								"command": "edit_settings",
+								"args":
+								{
+									"base_file": "${packages}/Wolfram Mathematica Notebook Viewer/WolframMathematicaNotebookViewer.sublime-settings"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
